@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
-import DataBinding from '../views/ParentComponent5.vue'
+import DataBinding from '../views/StoreAccess.vue'
 
 const routes = [
   {
