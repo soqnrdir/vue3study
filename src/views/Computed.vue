@@ -11,6 +11,7 @@ export default {
   },
   computed: {
     fullName () {
+      console.log(this.firstName)
       return this.firstName + ' ' + this.lastName
     }
   }

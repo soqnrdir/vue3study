@@ -12,7 +12,9 @@ export default {
     }
   },
   watch: {
+    // 값이 바뀔때만 watch가 동작한다.
     firstName () {
+      console.log(`firstName ${this.firstName}`)
       this.fullName = this.firstName + ' ' + this.lastName
     },
     lastName () {
@@ -21,7 +23,9 @@ export default {
   },
   methods: {
     changeName () {
-      this.firstName = 'Eunsol'
+      console.log(`changeName ${this.firstName}`)
+      // this.firstName = (new Date()).toString()
+      this.firstName = 'Test'
     }
   }
 }
