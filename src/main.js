@@ -21,3 +21,4 @@ app.use(router)
 app.use(store)
 app.mixin(mixins)
 app.mount('#app')
+window.Kakao.init('5b1905e22d58b7f545e5e6a42bde64d0') // 발급 받은 앱 키

@@ -1,6 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import DataBinding from '../views/Watch.vue'
+import KakaoLogin from '../views/KakaoLogin.vue'
+import NaverLogin from '../views/NaverLogin.vue'
+import GoogleLogin from '../views/GoogleLogin.vue'
 
 const routes = [
   {
@@ -20,6 +23,21 @@ const routes = [
     path: '/databinding',
     name: 'DataBinding',
     component: DataBinding
+  },
+  {
+    path: '/kakaoLogin',
+    name: 'KakaoLogin',
+    component: KakaoLogin
+  },
+  {
+    path: '/naverLogin',
+    name: 'NaverLogin',
+    component: NaverLogin
+  },
+  {
+    path: '/googleLogin',
+    name: 'GoogleLogin',
+    component: GoogleLogin
   }
 ]
 const router = createRouter({
